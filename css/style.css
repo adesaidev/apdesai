@@ -542,6 +542,13 @@ section.padding-60 {
   width: 20%;
   position: relative;
 }
+.entry .title span.year{
+  color:#000;
+}
+.entry .title span.company{
+  display: block;
+  font-size: 12px;  
+}
 
 .entry .title:before {
   content: "";

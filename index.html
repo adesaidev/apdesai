@@ -3,8 +3,8 @@
 <html lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Personal Portfolio HTML Template</title>
-	<meta name="description" content="Personal Portfolio HTML Template">
+	<title>Personal Portfolio</title>
+	<meta name="description" content="Personal Portfolio ">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
 
@@ -96,7 +96,8 @@
 		<!-- section hero -->
 		<section class="hero background parallax shadow-dark d-flex align-items-center" id="home" data-image-src="images/hero.jpg">
 			<div class="cta mx-auto mt-2 sort-desc">
-				<h1 class="mt-0 mb-4">I’m Ashvin Desai<span class="dot"></span></h1>
+				<span style="padding: 5px 25px;border-radius:50px 50px 50px 0;background:#FF5959;font-weight: 600;margin-bottom: 20px;display: inline-block;">Hello I’m</span>
+				<h1 class="mt-0 mb-4">Ashvin Desai<span class="dot"></span></h1>
 				<p class="mb-4">I am web designer from Gujarat, India. I have great knowledge of HTML5, CSS3, Jquery with various program compabilities.</p>
 				<a href="#works" class="btn btn-default btn-lg mr-3"><i class="icon-grid"></i>View Portfolio</a>
 				<div class="spacer d-md-none d-lg-none d-sm-none" data-height="10"></div>
@@ -353,47 +354,53 @@
 			<div class="timeline">
 				<div class="entry">
 					<div class="title">
-						<span>Apr 2019 - Present</span>
+						<span class="year">Apr 2019 - Present</span>
+						<span class="company">Full time Freelancer</span>
 					</div>
 					<div class="body">
 						<h4 class="mt-0">Front End Engineer</h4>
-						<p>Full time Freelancer</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tellus ac magna euismod pretium. Morbi non finibus neque. Nam mollis orci in nisl ultrices, sit amet tempus magna maximus. Nam semper mi ullamcorper, maximus nulla vitae, pretium dolor. Nunc interdum laoreet odio at ultrices.</p>
 					</div>
 				</div>
 				<div class="entry">
 					<div class="title">
-						<span>Apr 2018 - Mar 2019</span>
+						<span class="year">Apr 2018 - Mar 2019</span>
+						<span class="company">ELaunch Solution Pvt. Ltd.</span>
+						<span></span>
 					</div>
 					<div class="body">
 						<h4 class="mt-0">Team Lead</h4>
-						<p>ELaunch Solution Pvt. Ltd.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tellus ac magna euismod pretium. Morbi non finibus neque. Nam mollis orci in nisl ultrices, sit amet tempus magna maximus. Nam semper mi ullamcorper, maximus nulla vitae, pretium dolor. Nunc interdum laoreet odio at ultrices.</p>
 					</div>
 				</div>
 				<div class="entry">
 					<div class="title">
-						<span>Apr 2016 - Mar 2018</span>
+						<span class="year">Apr 2016 - Mar 2018</span>
+						<span class="company">ELaunch Solution Pvt. Ltd.</span>						 
 					</div>
 					<div class="body">
 						<h4 class="mt-0"> Senior Frontend Developer</h4>
-						<p>ELaunch Solution Pvt. Ltd.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tellus ac magna euismod pretium. Morbi non finibus neque. Nam mollis orci in nisl ultrices, sit amet tempus magna maximus. Nam semper mi ullamcorper, maximus nulla vitae, pretium dolor. Nunc interdum laoreet odio at ultrices.</p>
 					</div>
 				</div>
 				<div class="entry">
 					<div class="title">
-						<span>Oct 2014 - Mar 2016</span>
+						<span class="year">Oct 2014 - Mar 2016</span>
+						<span class="company">ELaunch Solution Pvt. Ltd.</span>
 					</div>
 					<div class="body">
 						<h4 class="mt-0"> Web Designer</h4>
-						<p>ELaunch Solution Pvt. Ltd.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tellus ac magna euismod pretium. Morbi non finibus neque. Nam mollis orci in nisl ultrices, sit amet tempus magna maximus. Nam semper mi ullamcorper, maximus nulla vitae, pretium dolor. Nunc interdum laoreet odio at ultrices.</p>
 					</div>
 				</div>
 				<div class="entry">
 					<div class="title">
-						<span>Mar 2012 - Sep 2014</span>
+						<span class="year">Mar 2012 - Sep 2014</span>
+						<span class="company">Desai Software - India</span> 
 					</div>
 					<div class="body">
 						<h4 class="mt-0"> Web Designer</h4>
-						<p>Desai Software - India</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultricies tellus ac magna euismod pretium. Morbi non finibus neque. Nam mollis orci in nisl ultrices, sit amet tempus magna maximus. Nam semper mi ullamcorper, maximus nulla vitae, pretium dolor. Nunc interdum laoreet odio at ultrices.</p>
 					</div>
 				</div>
 				<span class="timeline-line"></span>
@@ -826,15 +833,26 @@
 
 				<div class="col-md-8">
 					<!-- Contact Form -->
+					<!-- <form id="contact-form">
+						<input type="hidden" name="contact_number">
+						<label>Name</label>
+						<input type="text" name="user_name">
+						<label>Email</label>
+						<input type="email" name="user_email">
+						<label>Message</label>
+						<textarea name="message"></textarea>
+						<input type="submit" value="Send">
+					</form> -->
+
 					<form id="contact-form" class="contact-form" method="post">
-						
+						<input type="hidden" name="contact_number">
 						<div class="messages"></div>
 						
 						<div class="row">
 							<div class="column col-md-6">
 								<!-- Name input -->
 								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
+									<input type="text" class="form-control" name="user_name" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -842,7 +860,7 @@
 							<div class="column col-md-6">
 								<!-- Email input -->
 								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+									<input type="email" class="form-control" id="InputEmail" name="user_email" placeholder="Email address" required="required" data-error="Email is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -858,7 +876,7 @@
 							<div class="column col-md-12">
 								<!-- Message textarea -->
 								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
+									<textarea name="message" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -885,6 +903,7 @@
 <script src="js/jquery-1.12.3.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/popper.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
